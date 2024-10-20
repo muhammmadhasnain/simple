@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+}
+
+
+.container{
+    width: 380px;
+    height: 480px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-top: 100px;
+    box-shadow: 0 25px 50px rgba(7,20,35,0.2)
+
+
+
+}
+
+.option{
+    height: 10px;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    
+    
+}
+
+button{
+    height: 28px;
+    width: 28px;
+    display: grid;
+    place-items: center;
+    border-radius: 3px;
+    border: none;
+    background-color: #ffffff;
+    color: #020929;
+    outline: none;
+}
+
+select{
+    padding: 7px;
+    border: 1px solid #020929;
+    border-radius: 3px;
+}
+
+
+.option label, .option select{
+    font-family: sans-serif;
+}
+
+#text-input{
+    width: auto;
+    margin: 10px ;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    height: 40vh;
+    width: 330px;
+    outline: gray;
+}
+
+.active{
+    background-color: #e0e9ff;
+}
+
+
+
+
